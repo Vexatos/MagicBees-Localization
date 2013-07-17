@@ -20,21 +20,23 @@
 	<entry key="comb.occult">神秘蜂巢</entry>
 	<entry key="comb.otherworldly">异域蜂巢</entry>
 	<entry key="comb.paper">纸质蜂巢</entry>
-	<entry key="comb.stark">朴实蜂巢</entry>
+	<entry key="comb.soul">灵魂蜂巢</entry>
+	<entry key="comb.furtive">诡秘蜂巢</entry>
+	<entry key="comb.aware">回忆蜂巢</entry>
+	<entry key="comb.time">瞬息蜂巢</entry>
+	<entry key="comb.harmonizing">和谐蜂巢</entry>
 	<entry key="comb.air">风之蜂巢</entry>
 	<entry key="comb.fire">火之蜂巢</entry>
 	<entry key="comb.water">水之蜂巢</entry>
 	<entry key="comb.earth">地之蜂巢</entry>
 	<entry key="comb.magic">蕴魔蜂巢</entry>
-	<entry key="comb.aware">回忆蜂巢</entry>
-	<entry key="comb.furtive">诡秘蜂巢</entry>
-	<entry key="comb.soul">灵魂蜂巢</entry>
 	<entry key="comb.essence">源质蜂巢</entry>
 	<entry key="comb.potent">强力蜂巢</entry>
 
 	<!-- Wax names -->
 	<entry key="wax.magic">魔力蜜蜡</entry>
 	<entry key="wax.soul">灵魂蜜蜡</entry>
+	<entry key="wax.amnesic">遗忘蜜蜡</entry>
 
 	<!-- Drop names -->
 	<entry key="drop.enchanting">蕴魔液滴</entry>
@@ -62,13 +64,19 @@
 	<entry key="propolis.water">奔流蜂胶</entry>
 	<entry key="propolis.earth">石化蜂胶</entry>
 	<entry key="propolis.magic">蕴魔蜂胶</entry>
+	<entry key="propolis.unstable">不稳定蜂胶</entry>
 
 	<!-- Misc Resources -->
 	<entry key="resource.fragment">卷章碎片</entry>
 	<entry key="resource.lump">芬芳块</entry>
 	<entry key="resource.fertilizer">浓缩复合物</entry>
+	<entry key="resource.skullChip">凋灵骷髅骨片</entry>
+	<entry key="resource.skullFragment">凋灵骷髅头骨碎片</entry>
+	<entry key="resource.dragonDust">龙之尘</entry>
+	<entry key="resource.dragonChunk">龙之块</entry>
+	<entry key="resource.essenceFalseLife">伪生源质</entry>
+	<entry key="resource.essenceShallowGrave">影墓源质</entry>
 	<entry key="resource.startNode">蜜蜂与魔法</entry>
-	<entry key="resource.beeEnchant">朴实蜂蕴魔物</entry>
 	<entry key="resource.crystalAspect">晶化%s要素</entry>
 
 	<!-- Frames -->
@@ -116,7 +124,19 @@
 
 	<!-- Miscellaneous names -->
 	<entry key="backpack.thaumaturge">神秘使背包</entry>
-	<entry key="itemGroup.magicbees">神秘蜜蜂</entry>
+	<entry key="itemGroup.magicbees">魔法蜜蜂</entry>
+	
+	<!-- Escritoire Strings -->
+	<entry key="research.requiresBlock">需要一个%s作为基础</entry>
+	<entry key="research.requiresPhase">月相处于%s与%s之间时</entry>
+	<entry key="research.requiresPhaseSingle">月相为%s</entry>
+	<entry key="research.requiresNode">仅节点位于附近时才出现</entry>
+	<entry key="research.requiresNodeSpecific">当受到%s节点影响时才出现 </entry>
+	<entry key="research.requiresBiome">当处于%s这种生态群落才出现</entry>
+	<entry key="research.node.pure">纯净</entry>
+	<entry key="research.node.dark">黑暗</entry>
+	<entry key="research.node.chaotic">混乱</entry>
+	<entry key="research.block.crystals">晶簇</entry>
 
 	<!-- Species names -->
 	<entry key="magicbees.speciesEsoteric">玄奥</entry>
@@ -138,8 +158,7 @@
 	<entry key="magicbees.speciesScholarly">博学</entry>
 	<entry key="magicbees.speciesScholarly.description">"我难以确信,但我觉得它们比我更聪明 ..."|Yorae,图书馆馆员</entry>
 	<entry key="magicbees.speciesSavant">专家</entry>
-	<entry key="magicbees.speciesSavant.description">lim(x^(i / pi)/ log(e * 7 - ln(32/x^-pi))).
-		把这个解出来我就给你们蜂蜜。|Yorae的桌子上发现的便签</entry>
+	<entry key="magicbees.speciesSavant.description">lim(x^(i / pi)/ log(e * 7 - ln(32/x^-pi))).把这个解出来我就给你们蜂蜜。|Yorae的桌子上发现的便签</entry>
 
 	<entry key="magicbees.speciesAware">感知</entry>
 	<entry key="magicbees.speciesAware.description">"它们看得见你的灵魂!"|Florastar,养蜂专家</entry>
@@ -237,14 +256,13 @@
 	<entry key="magicbees.speciesAMStaude">延年</entry>
 	<entry key="magicbees.speciesAMStaude.description">与绿色和生命的力量天生亲和。|Apinomicon</entry>
 	<entry key="magicbees.speciesAMEis">冰霜</entry>
-	<entry key="magicbees.speciesAMEis.description">"它们老偷我东西，但我却抓不住它们。它们太滑溜。"|MysteriousAges, incorrigible
-		punster</entry>
+	<entry key="magicbees.speciesAMEis.description">"它们老偷我东西，但我却抓不住它们。它们太滑溜。"|MysteriousAges,无可救药的俏皮话大师</entry>
 	<entry key="magicbees.speciesAMMagma">熔岩</entry>
 	<entry key="magicbees.speciesAMMagma.description">它们飞过之处，大地被烧灼成灰烬之地，所有的植被都被焚烧干净。|Apinomicon</entry>
 	<entry key="magicbees.speciesAMArkanen">奥义</entry>
 	<entry key="magicbees.speciesAMArkanen.description">"古怪的生物，但是产物蛮有用的"|Mithion,专家级法师</entry>
 	<entry key="magicbees.speciesAMVortex">漩涡</entry>
-	<entry key="magicbees.speciesAMVortex.description">它们贪婪地渴求法力，被任何施法者它们都能危险。|Apinomicon</entry>
+	<entry key="magicbees.speciesAMVortex.description">它们贪婪地渴求法力，对任何施法者它们都相当危险。|Apinomicon</entry>
 	<entry key="magicbees.speciesAMWight">重量</entry>
 	<entry key="magicbees.speciesAMWight.description">"它们能吸收魔力;并非总是很温顺。"|Mithion,专家级法师</entry>
 
@@ -255,6 +273,7 @@
 	<entry key="magicbees.effectDigSpeed">挖掘加速</entry>
 	<entry key="magicbees.effectMoveSpeed">速度</entry>
 	<entry key="magicbees.effectSlowSpeed">缓慢</entry>
+	<entry key="magicbees.effectWithering">凋灵</entry>
 	<entry key="magicbees.effectNodeGeneration">灵气吸收</entry>
 	<entry key="magicbees.effectNodePurify">灵气纯化</entry>
 	<entry key="magicbees.effectNodeFlux">咒波</entry>
@@ -263,6 +282,8 @@
 	<entry key="magicbees.effectBatty">火蝠</entry>
 	<entry key="magicbees.effectWispy">精灵</entry>
 	<entry key="magicbees.effectGhastly">幽魂</entry>
+	<entry key="magicbees.effectSpidery">蜘蛛</entry>
+	<entry key="magicbees.effectAblaze">火光</entry>
 	<entry key="magicbees.effectManaDrainer">漩涡</entry>
 	<entry key="magicbees.effectAMWisp">精灵[AM]</entry>
 	<entry key="flowerProvider.book">书</entry>
