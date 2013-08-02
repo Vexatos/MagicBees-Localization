@@ -101,8 +101,8 @@
 	<entry key="item.frameOblivion.name">Забвенная рамка</entry>
 
 	<!-- Capsule names -->
-	<entry key="capsule.magic">Magic Capsule</entry>
-	<entry key="capsule.void">Void Capsule</entry>
+	<entry key="capsule.magic">%s Magic Capsule</entry>
+	<entry key="capsule.void">%s Void Capsule</entry>
 
 	<!-- Liquids -->
 	<entry key="liquid.">Empty</entry>
