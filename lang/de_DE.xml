@@ -32,8 +32,8 @@
 	<entry key="comb.soul">Seelenwabe</entry>
 	<entry key="comb.furtive">Verstohlene Wabe</entry>
 	<entry key="comb.aware">Gedächtniswabe</entry>
-	<entry key="comb.time">Zeit-Wabe</entry>
-	<entry key="comb.forgotten">Vergessene Wabe</entry>
+	<entry key="comb.time">Zeitwabe</entry>
+	<entry key="comb.forgotten">Vergessenheitswabe</entry>
 	
 	<entry key="comb.air">Luftige Wabe</entry>
 	<entry key="comb.fire">Feurige Wabe</entry>
@@ -44,7 +44,7 @@
 	<entry key="comb.TCfire">Glitzernde Feurige Wabe</entry>
 	<entry key="comb.TCwater">Glitzernde Wässrige Wabe</entry>
 	<entry key="comb.TCearth">Glitzernde Irdene Wabe</entry>
-	<entry key="comb.TCorder">Glitzernde Geordnete Wabe</entry>
+	<entry key="comb.TCorder">Glitzernde Ordentliche Wabe</entry>
 	<entry key="comb.TCchaos">Glitzernde Entropische Wabe</entry>
 
 	<entry key="comb.essence">Essenzwabe</entry>
@@ -97,12 +97,12 @@
 	<entry key="resource.essenceDurability">Essenz der Immerwährenden Haltbarkeit</entry>
 	<entry key="resource.essenceOblivion">Essenz der Verächtlichen Vergessenheit</entry>
 	<entry key="resource.essenceMutable">Essenz der Wankelnden Permanenz</entry>
-	<entry key="resource.TCairDust">Luft-Durchdrungener Staub</entry>
-	<entry key="resource.TCfireDust">Feuer-Durchdrungener Staub</entry>
-	<entry key="resource.TCwaterDust">Wasser-Durchdrungener Staub</entry>
-	<entry key="resource.TCearthDust">Erd-Durchdrungener Staub</entry>
-	<entry key="resource.TCorderDust">Ordnungs-Durchdrungener Staub</entry>
-	<entry key="resource.TCchaosDust">Chaos-Durchdrungener Staub</entry>
+	<entry key="resource.TCairDust">Luft-durchdrungener Staub</entry>
+	<entry key="resource.TCfireDust">Feuer-durchdrungener Staub</entry>
+	<entry key="resource.TCwaterDust">Wasser-durchdrungener Staub</entry>
+	<entry key="resource.TCearthDust">Erd-durchdrungener Staub</entry>
+	<entry key="resource.TCorderDust">Ordnungs-durchdrungener Staub</entry>
+	<entry key="resource.TCchaosDust">Chaos-durchdrungener Staub</entry>
 	<entry key="resource.dimensionalSingularity">Dimensionalsingularität</entry>
 	<entry key="resource.startNode">Bienen und Magie</entry>
 	<entry key="resource.crystalAspect">Kristallisierter %s - Aspekt</entry>
@@ -172,7 +172,7 @@
 	<entry key="magicbees.speciesSorcerous">Magisch</entry>
 	<entry key="magicbees.speciesSorcerous.description">Gefunden in warmen, trockenen Umgebungen, scheinen sie die Fähigkeit zu haben, Wasser aus dem Nichts zu beschwören.|Apinomikon</entry>
 	<entry key="magicbees.speciesUnusual">Ungewöhnlich</entry>
-	<entry key="magicbees.speciesUnusual.description">"Ein seltsames Exemplar für meine Sammlung!"|Junior-Apiarist</entry>
+	<entry key="magicbees.speciesUnusual.description">"Ein seltsames Exemplar für meine Sammlung!"|Junior-Imker</entry>
 	<entry key="magicbees.speciesAttuned">Abgestimmt</entry>
 	<entry key="magicbees.speciesAttuned.description">Sie fliegen durch die Luft, als ob sie von ungesehenen Fäden geführt würden.|Apinomikon</entry>
 
@@ -286,7 +286,7 @@
 	<entry key="magicbees.speciesMutable">Veränderbar</entry>
 	<entry key="magicbees.speciesMutable.description">Wechselhaft in der Natur, unbeständig in der Persönlichkeit.|Apinomikon</entry>
 	<entry key="magicbees.speciesTransmuting">Transmutierend</entry>
-	<entry key="magicbees.speciesTransmuting.description">"Ich könnte schwören, dies bestand gestern noch aus Stein!"|Sengir, Mad Apiarist</entry>
+	<entry key="magicbees.speciesTransmuting.description">"Ich könnte schwören, dies bestand gestern noch aus Stein!"|Sengir, Verrückter Imker</entry>
 	<entry key="magicbees.speciesCrumbling">Bröckelnd</entry>
 	<entry key="magicbees.speciesCrumbling.description">Sie haben einen korrosiven Effekt auf ihre Umgebung, sie lassen sie rapide altern.|Apinomikon</entry>
 
@@ -298,10 +298,10 @@
 	<entry key="magicbees.speciesTCWater.description">"Ich habe mal versucht, die zu züchten, aber es lief nicht alles so gut."|MysteriousAges, Fortgeschrittener Thaumaturge</entry>
 	<entry key="magicbees.speciesTCEarth">Solon</entry>
 	<entry key="magicbees.speciesTCEarth.description">"Ich muss noch mal das Rezept für diese Bienen ausgraben, aber Achtung, ihre Stacheln boren sich in deine Haut."|MysteriousAges, Anfänger in der Comedy</entry>
-	<entry key="magicbees.speciesTCOrder">Geordnet</entry>
-	<entry key="magicbees.speciesTCOrder.description">Ihre Waben sind nahezu perfekt, jeder Teil spiegelt ie Form des Ganzen wider.|Apinomicon</entry>
+	<entry key="magicbees.speciesTCOrder">Ordentlich</entry></entry>
+	<entry key="magicbees.speciesTCOrder.description">Ihre Waben sind nahezu perfekt, jeder Teil spiegelt die Form des Ganzen wider.|Apinomikon</entry>
 	<entry key="magicbees.speciesTCChaos">Chaotisch</entry>
-	<entry key="magicbees.speciesTCChaos.description">"Die soziale Struktur ihrer Stöcke scheint sich tagtäglich zu verändern, was sie flexibler und zäher als andere macht, aber auch deutlich unberechenbarer.|Apinomicon</entry>
+	<entry key="magicbees.speciesTCChaos.description">"Die soziale Struktur ihrer Stöcke scheint sich tagtäglich zu verändern, was sie flexibler und zäher als andere macht, aber auch deutlich unberechenbarer.|Apinomikon</entry>
 
 	<entry key="magicbees.speciesTCVis">Vis</entry>
 	<entry key="magicbees.speciesTCVis.description">"Sie können Veränderungen in der Aura wahrnehmen, aber noch nicht verändern."|Azanors Mitschriften</entry>
@@ -418,7 +418,7 @@
 	<entry key="classification.gem">Edelstein</entry>
 	<entry key="classification.gem.description">Sie sammeln Fragmente kostbarer Edelsteine in ihren Waben.|Apinomikon</entry>
 	<entry key="classification.transmuting">Polymorph</entry>
-	<entry key="classification.transmuting.description">Um Bienen dieser Familie herum scheint Realität etwas volatil zu sein.|Apinomicon</entry>
+	<entry key="classification.transmuting.description">Um Bienen dieser Familie herum scheint Realität etwas volatil zu sein.|Apinomikon</entry>
 	<entry key="classification.thaumic">Thaumisch</entry>
 	<entry key="classification.thaumic.description">Diese Bienen haben eine erhöhte Affinität zu Magie und Aura.|Apinomikon</entry>
 	<entry key="classification.fleshy">Fleischig</entry>
