@@ -10,10 +10,10 @@
 	<entry key="item.moonDial.name">Нефритовый набор луны</entry>
 
 	<!-- Block names -->
-	<entry key="tile.planks.greatwood.name">Доски грейтвуда</entry>
-	<entry key="tile.slab.wood.greatwood.name">Плиты грейтвуда</entry>
-	<entry key="tile.planks.silverwood.name">Доски сильвервуда</entry>
-	<entry key="tile.slab.wood.silverwood.name">Плиты сильвервуда</entry>
+	<entry key="tile.planks.greatwood.name">Доски из древесины великого дерева</entry>
+	<entry key="tile.slab.wood.greatwood.name">Плита из древесины великого дерева</entry>
+	<entry key="tile.planks.silverwood.name">Доски из древесины серебряного дерева</entry>
+	<entry key="tile.slab.wood.silverwood.name">Плиты из древесины серебряного дерева</entry>
 	<entry key="tile.effectJar.name">Банка для сбора пчёл</entry>
 	<entry key="tile.hive.curious.name">Странный улей</entry>
 	<entry key="tile.hive.unusual.name">Необычный улей</entry>
@@ -25,20 +25,28 @@
 	<!-- Comb names -->
 	<entry key="comb.mundane">Мирские соты</entry>
 	<entry key="comb.molten">Расплавленные соты</entry>
-	<entry key="comb.forgotten">Забытые соты</entry>
 	<entry key="comb.occult">Оккультические соты</entry>
 	<entry key="comb.otherworldly">Потусторонние соты</entry>
+	<entry key="comb.transmuted">Трансмутирующие соты</entry>
 	<entry key="comb.paper">Бумажные соты</entry>
 	<entry key="comb.soul">Душевные соты</entry>
 	<entry key="comb.furtive">Незаметные соты</entry>
 	<entry key="comb.aware">Памятные соты</entry>
 	<entry key="comb.time">Временные соты</entry>
-	<entry key="comb.harmonizing">Гармоничные соты</entry>
+	<entry key="comb.forgotten">Забытые соты</entry>
+	
 	<entry key="comb.air">Воздушные соты</entry>
 	<entry key="comb.fire">Огненные соты</entry>
 	<entry key="comb.water">Водяные соты</entry>
 	<entry key="comb.earth">Земляные соты</entry>
-	<entry key="comb.magic">Заряженные соты</entry>
+	
+	<entry key="comb.TCair">Сверкающие воздушные соты</entry>
+	<entry key="comb.TCfire">Сверкающие огненные соты</entry>
+	<entry key="comb.TCwater">Сверкающие водяные соты</entry>
+	<entry key="comb.TCearth">Сверкающие земляные соты</entry>
+	<entry key="comb.TCorder">Сверкающие упорядоченные соты</entry>
+	<entry key="comb.TCchaos">Сверкающие энтропийные соты</entry>
+	
 	<entry key="comb.essence">Сущные соты</entry>
 	<entry key="comb.potent">Крепкие соты</entry>
 
@@ -57,17 +65,17 @@
 
 	<!-- Nugget names -->
 	<entry key="nugget.iron">Железный самородок</entry>
-	<entry key="nugget.steel">Стальной самородок</entry>
+	<entry key="nugget.steel">Кусочек стали</entry>
 	<entry key="nugget.copper">Медный самородок</entry>
 	<entry key="nugget.tin">Оловянный самородок</entry>
 	<entry key="nugget.silver">Серебряный самородок</entry>
 	<entry key="nugget.lead">Свинцовый самородок</entry>
-	<entry key="nugget.diamond">Алмазный осколок</entry>
-	<entry key="nugget.emerald">Изумрудный осколок</entry>
+	<entry key="nugget.diamond">Осколок алмаза</entry>
+	<entry key="nugget.emerald">Осколок изумруда</entry>
 	<entry key="nugget.apatite">Осколок апатита</entry>
 
 	<!-- Propolis names -->
-	<entry key="propolis.dull">Тусклый прополис</entry>
+	<entry key="propolis.dull">Упорядоченный прополис</entry>
 	<entry key="propolis.air">Свежий прополис</entry>
 	<entry key="propolis.fire">Горящий прополис</entry>
 	<entry key="propolis.water">Мягкий прополис</entry>
@@ -88,6 +96,14 @@
 	<entry key="resource.essenceTime">Эссенция утраченного времени</entry>
 	<entry key="resource.essenceDurability">Эссенция вечной прочности</entry>
 	<entry key="resource.essenceOblivion">Эссенция бесконечного равнодушия</entry>
+	<entry key="resource.essenceMutable">Эссенция переменчивого постоянства</entry>
+	<entry key="resource.TCairDust">Air Infused Dust</entry>
+	<entry key="resource.TCfireDust">Fire Infused Dust</entry>
+	<entry key="resource.TCwaterDust">Water Infused Dust</entry>
+	<entry key="resource.TCearthDust">Earth Infused Dust</entry>
+	<entry key="resource.TCorderDust">Order Infused Dust</entry>
+	<entry key="resource.TCchaosDust">Chaos Infused Dust</entry>
+	<entry key="resource.dimensionalSingularity">Dimensional Singularity</entry>
 	<entry key="resource.startNode">Пчёлы и магия</entry>
 	<entry key="resource.crystalAspect">Кристаллизованный %s аспект</entry>
 
@@ -148,6 +164,7 @@
 	<entry key="research.node.pure">чистого</entry>
 	<entry key="research.node.dark">тёмного</entry>
 	<entry key="research.node.chaotic">хаотического</entry>
+	<entry key="research.block.crystals">Кристаллический сросток</entry>
 
 	<!-- Species names -->
 	<entry key="magicbees.speciesMystical">Мистические</entry>
@@ -155,7 +172,7 @@
 	<entry key="magicbees.speciesSorcerous">Волшебные</entry>
 	<entry key="magicbees.speciesSorcerous.description">Любят тепло и сухую среду кажется, что они обладают способностью вызывать воду из воздуха.|Apinomicon</entry>
 	<entry key="magicbees.speciesUnusual">Необычные</entry>
-	<entry key="magicbees.speciesUnusual.description">"Любопытный образец для моей коллекции!"|Junior Apiarist</entry>
+	<entry key="magicbees.speciesUnusual.description">"Любопытный образец для моей коллекции!"|Младший пчеловод</entry>
 	<entry key="magicbees.speciesAttuned">Приученные</entry>
 	<entry key="magicbees.speciesAttuned.description">Они летят, как будто руководствуясь невидимой нитью через воздух.|Apinomicon</entry>
 
@@ -167,7 +184,7 @@
 	<entry key="magicbees.speciesMysterious">Таинственные</entry>
 	<entry key="magicbees.speciesMysterious.description">Эти пчёлы были в краю мира и вернулись, и их сила выросла.|Apinomicon</entry>
 	<entry key="magicbees.speciesArcane">Скрытые</entry>
-	<entry key="magicbees.speciesArcane.description">"Их продукция заряжена магией."|Azanor, Master Thaumaturge</entry>
+	<entry key="magicbees.speciesArcane.description">"Их продукция заряжена магией."|Azanor, мастер тауматург</entry>
 
 	<entry key="magicbees.speciesCharmed">Заколдованные</entry>
 	<entry key="magicbees.speciesCharmed.description">Ваши первые эксперименты в тауматургическом пчеловодстве дали свои плоды. Жужжащие плоды.|Apinomicon</entry>
@@ -189,14 +206,14 @@
 	<entry key="magicbees.speciesWindy.description">Редко можно увидеть в плоских, широко открытых пространствах. Их территории огромны.|Apinomicon</entry>
 
 	<entry key="magicbees.speciesPupil">Подопечные</entry>
-	<entry key="magicbees.speciesPupil.description">"Что эта пчела хочет сделать с моей бумагой?!"|Yorae, Librarian</entry>
+	<entry key="magicbees.speciesPupil.description">"Что эта пчела хочет сделать с моей бумагой?!"|Yorae, библиотекарь</entry>
 	<entry key="magicbees.speciesScholarly">Учёные</entry>
-	<entry key="magicbees.speciesScholarly.description">"Я не могу быть уверен, но я думаю, что они могут быть умнее меня..."|Yorae, Librarian</entry>
+	<entry key="magicbees.speciesScholarly.description">"Я не могу быть уверен, но я думаю, что они могут быть умнее меня..."|Yorae, библиотекарь</entry>
 	<entry key="magicbees.speciesSavant">Сведущие</entry>
-	<entry key="magicbees.speciesSavant.description">lim(x^(i / pi)/ log(e * 7 - ln(32/x^-pi))). Решите за мёд.|Note found on Yorae's desk</entry>
+	<entry key="magicbees.speciesSavant.description">lim(x^(i / pi)/ log(e * 7 - ln(32/x^-pi))). Решите за мёд.|Запись, найденная на доске Yorae</entry>
 
 	<entry key="magicbees.speciesAware">Памятные</entry>
-	<entry key="magicbees.speciesAware.description">"Они могут видеть в вашу душу!"|Florastar, Expert Beekeeper</entry>
+	<entry key="magicbees.speciesAware.description">"Они могут видеть в вашу душу!"|Florastar, Пчеловод-эксперт</entry>
 	<entry key="magicbees.speciesSpirit">Духовные</entry>
 	<entry key="magicbees.speciesSpirit.description">Говорят, что эти пчёлы в состоянии связаться с мертвыми.|Apinomicon</entry>
 	<entry key="magicbees.speciesSoul">Душевные</entry>
@@ -205,14 +222,14 @@
 	<entry key="magicbees.speciesSkulking">Прячущиеся</entry>
 	<entry key="magicbees.speciesSkulking.description">Эти пчёлы стали ксенофобскими и злыми. Будьте осторожны.|Apinomicon</entry>
 	<entry key="magicbees.speciesGhastly">Ужасные</entry>
-	<entry key="magicbees.speciesGhastly.description">"*вздох*... правда, мистические?"|Taveria, irritated Apiarist</entry>
+	<entry key="magicbees.speciesGhastly.description">"*вздох*... правда, мистические?"|Taveria, раздражённый пчеловод</entry>
 	<entry key="magicbees.speciesSpidery">Паучие</entry>
-	<entry key="magicbees.speciesSpidery.description">Паук-пчела; n. Делает то, что делает паук-пчела.|Unknown</entry>
+	<entry key="magicbees.speciesSpidery.description">Паук-пчела; n. Делает то, что делает паук-пчела.|Неизвестный</entry>
 	<entry key="magicbees.speciesSmouldering">Тлеющие</entry>
 	<entry key="magicbees.speciesSmouldering.description">Тлеющие пчёлы стали зажженным огнём неугасимого пламени.|Apinomicon</entry>
 
 	<entry key="magicbees.speciesTimely">Своевременные</entry>
-	<entry key="magicbees.speciesTimely.description">"Пчеловод никогда не опаздывает. Он приходит именно тогда, когда он хочет!"|Sengir, Mad Apiarist</entry>
+	<entry key="magicbees.speciesTimely.description">"Пчеловод никогда не опаздывает. Он приходит именно тогда, когда он хочет!"|Sengir, Сумасшедший пчеловод</entry>
 	<entry key="magicbees.speciesLordly">Барские</entry>
 	<entry key="magicbees.speciesLordly.description">Они живут в мире, в пределах видимости глаза гармонии|Tattered Remains of ancient Apinomicon</entry>
 	<entry key="magicbees.speciesDoctoral">Докторские</entry>
@@ -241,7 +258,7 @@
 	<entry key="magicbees.speciesIron">Железистые</entry>
 	<entry key="magicbees.speciesIron.description">Вобрав некоторые из неблагородных металлов, эти пчёлы могут концентрировать эссенцию железа из региона.|Apinomicon</entry>
 	<entry key="magicbees.speciesGold">Золотоносные</entry>
-	<entry key="magicbees.speciesGold.description">Не всё, что блестит, золото.|Ancient Aphorism</entry>
+	<entry key="magicbees.speciesGold.description">Не всё, что блестит, золото.|Древний афоризм</entry>
 	<entry key="magicbees.speciesCopper">Медные</entry>
 	<entry key="magicbees.speciesCopper.description">Базовый металл во многих применениях; эти пчёлы полезны для борьбы с нехваткой ресурсов.|Apinomicon</entry>
 	<entry key="magicbees.speciesTin">Оловянные</entry>
@@ -265,30 +282,37 @@
 	<entry key="magicbees.speciesEmerald.description">Говорят, что они были на земле, которой правил великий волшебник и они взяли аспект его города.|Apinomicon</entry>
 	<entry key="magicbees.speciesApatite">Апатин</entry>
 	<entry key="magicbees.speciesApatite.description">День и ночь жужжат. Я забаррикадировал окна и спрятался в подвале, но пронзительный шум апатин пчёл проникал в стены и доводил меня до безумия.|Beekeeping 101</entry>
+	
+	<entry key="magicbees.speciesMutable">Мутабельные</entry>
+	<entry key="magicbees.speciesMutable.description">Изменчивы в природе, переменчивы в характере.|Apinomicon</entry>
+	<entry key="magicbees.speciesTransmuting">Трансмутирующие</entry>
+	<entry key="magicbees.speciesTransmuting.description">"Я мог бы поклясться, они были сделаны вчера из камня!"|Sengir, сумасшедший пчеловод</entry>
+	<entry key="magicbees.speciesCrumbling">Разрушающие</entry>
+	<entry key="magicbees.speciesCrumbling.description">Они оказывают негативный эффект на своё окружение, быстро состаривают его.|Apinomicon</entry>
 
 	<entry key="magicbees.speciesTCAir">Аура</entry>
-	<entry key="magicbees.speciesTCAir.description">"Они работают так быстро, что это захватывает дух."|Sengir, Mad Apiarist</entry>
+	<entry key="magicbees.speciesTCAir.description">"Они работают так быстро, что это захватывает дух."|Sengir, сумасшедший пчеловод</entry>
 	<entry key="magicbees.speciesTCFire">Игнис</entry>
-	<entry key="magicbees.speciesTCFire.description">Внимание: содержание улья очень горячо.|Warning label on Azanor's apiary</entry>
+	<entry key="magicbees.speciesTCFire.description">Внимание: содержание улья очень горячо.|Предупредительный знак на пасеке Azanor'а</entry>
 	<entry key="magicbees.speciesTCWater">Аква</entry>
-	<entry key="magicbees.speciesTCWater.description">"Я пытался размножить их однажды, но я получил мыло."|MysteriousAges, Apprentice Thaumaturge</entry>
+	<entry key="magicbees.speciesTCWater.description">"Я пытался размножить их однажды, но я получил мыло."|MysteriousAges, ученик тауматург</entry>
 	<entry key="magicbees.speciesTCEarth">Солим</entry>
 	<entry key="magicbees.speciesTCEarth.description">"You're really gonna dig these bees, but watch out - they bore quite easily."|MysteriousAges, Apprentice Comedian</entry>
 	<entry key="magicbees.speciesTCOrder">Праекантатио</entry>
-	<entry key="magicbees.speciesTCOrder.description">Пчеловодство это магия!|Apinomicon, Preface</entry>
+	<entry key="magicbees.speciesTCOrder.description">Пчеловодство это магия!|Apinomicon, предисловие</entry>
 	<entry key="magicbees.speciesTCChaos">Абсолютные</entry>
-	<entry key="magicbees.speciesTCChaos.description">"Их сильно привлекают осколки. Они требуют дальнейшего изучения."|Azanor, Master Thaumaturge</entry>
+	<entry key="magicbees.speciesTCChaos.description">"Их сильно привлекают осколки. Они требуют дальнейшего изучения."|Azanor, мастер тауматург</entry>
 
 	<entry key="magicbees.speciesTCVis">Вис</entry>
-	<entry key="magicbees.speciesTCVis.description">"Они могут чувствовать изменения в ауре, но ещё не в состоянии воздействовать на неё."|Azanor, research notes</entry>
+	<entry key="magicbees.speciesTCVis.description">"Они могут чувствовать изменения в ауре, но ещё не в состоянии воздействовать на неё."|Azanor, исследовательские заметки</entry>
 	<entry key="magicbees.speciesTCPure">Чистые</entry>
-	<entry key="magicbees.speciesTCPure.description">"Это как пчела-швейцар!"|MysteriousAges, Thaumaturge</entry>
+	<entry key="magicbees.speciesTCPure.description">"Это как пчела-швейцар!"|MysteriousAges, тауматург</entry>
 	<entry key="magicbees.speciesTCFlux">Льняные</entry>
-	<entry key="magicbees.speciesTCFlux.description">"Я думал, что они помогут прибраться, но они делают только хуже!"|Kreicus, Apprentice Thaumaturge</entry>
+	<entry key="magicbees.speciesTCFlux.description">"Я думал, что они помогут прибраться, но они делают только хуже!"|Kreicus, ученик тауматург</entry>
 	<entry key="magicbees.speciesTCAttractive">Привлекательные</entry>
 	<entry key="magicbees.speciesTCAttractive.description">Претерпев странную мутацию, эти пчёлы в настоящее время привлекают магию к себе.|Apinomicon</entry>
-	<entry key="magicbees.speciesTCRejuvenating">Rejuvenating</entry>
-	<entry key="magicbees.speciesTCRejuvenating.description">The hum of the hive is magical, and over time is absorbed by nearby nodes.|Apinomicon</entry>
+	<entry key="magicbees.speciesTCRejuvenating">Омолаживающие</entry>
+	<entry key="magicbees.speciesTCRejuvenating.description">Жужжание улья магическо, с течением времени поглощается соседним узлам.|Apinomicon</entry>
 
 	<entry key="magicbees.speciesTCBrainy">Умные</entry>
 	<entry key="magicbees.speciesTCBrainy.description">Их соты могут быть вонючими и плохо пахнуть, но их интеллект хорошо развит.|Apinomicon</entry>
@@ -298,11 +322,11 @@
 	<entry key="magicbees.speciesTCBatty.description">Они, как правило, привлекают летучих мышей в свои ульи с помощью неизвестных средств.|Apinomicon</entry>
 
 	<entry key="magicbees.speciesTCChicken">Куриные</entry>
-	<entry key="magicbees.speciesTCChicken.description">"Кудах. Кудах кудах! ... вы слышали меня."|Confused bee</entry>
+	<entry key="magicbees.speciesTCChicken.description">"Кудах. Кудах кудах! ... вы слышали меня."|Сбитая с толку пчела</entry>
 	<entry key="magicbees.speciesTCBeef">Мясистые</entry>
-	<entry key="magicbees.speciesTCBeef.description">"Муу, муу, муу. Погоди, что?"|Confused bee</entry>
+	<entry key="magicbees.speciesTCBeef.description">"Муу, муу, муу. Погоди, что?"|Сбитая с толку пчела</entry>
 	<entry key="magicbees.speciesTCPork">Свиные</entry>
-	<entry key="magicbees.speciesTCPork.description">"Хрю, хрю. Эм.... бззз?"|Confused bee</entry>
+	<entry key="magicbees.speciesTCPork.description">"Хрю, хрю. Эм.... бззз?"|Сбитая с толку пчела</entry>
 
 	<entry key="magicbees.speciesEEMinium">Алхимические</entry>
 	<entry key="magicbees.speciesEEMinium.description">Это может быть возможным, чтобы воспользоваться их ртутной и изменчивой природой.|Apinomicon</entry>
@@ -347,9 +371,9 @@
 	<entry key="magicbees.effectCurative">Очищающая</entry>
 	<entry key="magicbees.effectDigSpeed">Добывающая</entry>
 	<entry key="magicbees.effectMoveSpeed">Ускоряющая</entry>
-	<entry key="magicbees.effectSlowSpeed">Искривляющая Время</entry>
+	<entry key="magicbees.effectSlowSpeed">Искривляющая время</entry>
 	<entry key="magicbees.effectWithering">Иссушающая</entry>
-	<entry key="magicbees.effectNodeAttract">Привлечённая Аурой</entry>
+	<entry key="magicbees.effectNodeAttract">Привлечённая аурой</entry>
 	<entry key="magicbees.effectNodePurify">Очищенная аурой</entry>
 	<entry key="magicbees.effectNodeFlux">Загрязнённая аурой</entry>
 	<entry key="magicbees.effectNodeCharge">Заряженная аурой</entry>
@@ -362,9 +386,9 @@
 	<entry key="magicbees.effectManaDrainer">Вихревая</entry>
 	<entry key="magicbees.effectAMWisp">Духовная</entry>
 	<entry key="flowerProvider.book">Книги</entry>
-	<entry key="flowerProvider.magic">Магические Цветы</entry>
+	<entry key="flowerProvider.magic">Магические цветы</entry>
 	<entry key="flowerProvider.arsmagica">Экзотические цветы</entry>
-	<entry key="flowerProvider.node">Нод</entry>
+	<entry key="flowerProvider.node">Узел</entry>
 
 	<!-- Classifications -->
 	<entry key="classification.veiled">Сокрытые</entry>
