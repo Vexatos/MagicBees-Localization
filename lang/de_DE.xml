@@ -153,7 +153,7 @@
 
 	<!-- Miscellaneous names -->
 	<entry key="backpack.thaumaturge">Rucksack des Thaumaturgen</entry>
-	<entry key="itemGroup.magicBees">Magische Bienen</entry>
+	<entry key="itemGroup.magicBees">Magic Bees/entry>
 	<entry key="misc.level">Level %s</entry>
 	<entry key="misc.magnetActive">%s - Aktiv</entry>
 	<entry key="misc.magnetInactive">%s - Inaktiv</entry>
