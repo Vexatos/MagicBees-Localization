@@ -5,6 +5,7 @@
 	<entry key="item.magicbees:jellyBabies.name">Handvoll Gummibärchen</entry>
 	<entry key="item.magicbees:thaumiumScoop.name">Thaumiumkescher</entry>
 	<entry key="item.magicbees:thaumiumGrafter.name">Thaumiumgartenschere</entry>
+	<entry key="item.magicbees:mysteriousMagnet.name">Mysteriöser Magnet</entry>
 
 	<!-- Specially handled Item names -->
 	<entry key="item.moonDial.name">Jade-Mondskala</entry>
@@ -152,7 +153,10 @@
 
 	<!-- Miscellaneous names -->
 	<entry key="backpack.thaumaturge">Rucksack des Thaumaturgen</entry>
-	<entry key="itemGroup.magicBees">Magische Bienen</entry>
+	<entry key="itemGroup.magicBees">Magic Bees/entry>
+	<entry key="misc.level">Level %s</entry>
+	<entry key="misc.magnetActive">%s - Aktiv</entry>
+	<entry key="misc.magnetInactive">%s - Inaktiv</entry>
 
 	<!-- Escritoire Strings -->
 	<entry key="research.requiresBlock">Erfordert die Basis des %s</entry>
@@ -290,6 +294,9 @@
 	<entry key="magicbees.speciesCrumbling">Bröckelnd</entry>
 	<entry key="magicbees.speciesCrumbling.description">Sie haben einen korrosiven Effekt auf ihre Umgebung, sie lassen sie rapide altern.|Apinomikon</entry>
 
+	<entry key="magicbees.speciesInvisible">Unsichtbar</entry>
+	<entry key="magicbees.speciesInvisible.description">Leicht zu verfehlen, ihr glasiger Körper ist in der Landschaft schwer zu entdecken.|Apinomikon</entry>
+
 	<entry key="magicbees.speciesTCAir">Auran</entry>
 	<entry key="magicbees.speciesTCAir.description">"Sie arbeiten so atemberaubend schnell."|Sengir, verrückter Imker</entry>
 	<entry key="magicbees.speciesTCFire">Ignis</entry>
@@ -375,7 +382,8 @@
 	<entry key="magicbees.effectWithering">Verfallen</entry>
 	<entry key="magicbees.effectTransmuting">Transmutieren</entry>
 	<entry key="magicbees.effectCrumbling">Bröckeln</entry>
-	<entry key="magicbees.effectNodeGeneration">Aura-Anziehungskraft</entry>
+	<entry key="magicbees.effectInvisiblility">Unsichtbarkeit</entry>
+	<entry key="magicbees.effectNodeAttract">Aura-Anziehungskraft</entry>
 	<entry key="magicbees.effectNodePurify">Aura reinigen</entry>
 	<entry key="magicbees.effectNodeFlux">Aura Flux</entry>
 	<entry key="magicbees.effectNodeCharge">Aura aufladen</entry>
@@ -488,6 +496,6 @@
 
 	<entry key="tc.research_name.MB_EssenceOblivion">Essenz der Verächtlichen Vergessenheit</entry>
 	<entry key="tc.research_text.MB_EssenceOblivion">[MB] Befreie dich mit Bosheit</entry>
-	<entry key="tc.research_page.MB_EssenceOblivion.1">Bienen für Mutationen zu züchten, kann nervig sein, besonders mit langlebigen Spezies. Mit ein wenig Schläue und nur einem Hauch von Selbstgefälligkeit hast du einen Weg gefunden, die Dimensionalsingularität auf eine Weise zu verwenden, die lediglich die Lebenskraft deiner kleinen fliegenden Freunde aussaugt, Stück für Stück. Naja, vielleicht auch beachtliche Mengen auf einmal. Wahrscheinlich beeinflusst es sie nicht zu schlimm.</entry>
+	<entry key="tc.research_page.MB_EssenceOblivion.1">Bienen für Mutationen zu züchten, kann nervig sein, besonders mit langlebigen Spezies. Mit ein wenig Schläue und nur einem Hauch von Selbstgefälligkeit hast du einen Weg gefunden, die Dimensionalsingularität auf eine Weise zu verwenden, die lediglich die Lebenskraft deiner kleinen fliegenden Freunde aussaugt, Stück für Stück. Naja, vielleicht auch beachtliche Mengen auf einmal. Wahrscheinlich beeinflusst es sie nicht zu schlimm. ##lineBreak## Es könnte ein wenig schwierig sein, an mehr als eines dieser §5Dracheneier§0 zu kommen, was nötig wäre, um an mehrere hiervon zu kommen. Vielleicht gibt es eine Bienenart, die bei dieser Einschränkung Abhilfe schaffen kann.</entry>
 
 </properties>
