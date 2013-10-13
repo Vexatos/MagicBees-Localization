@@ -5,6 +5,7 @@
     <entry key="item.magicbees:jellyBabies.name">胶糖娃娃</entry>
     <entry key="item.magicbees:thaumiumScoop.name">奥法捕蜂网</entry>
     <entry key="item.magicbees:thaumiumGrafter.name">奥法剪枝器</entry>
+    <entry key="item.magicbees:mysteriousMagnet.name">神秘磁铁</entry>
 
     <!-- Specially handled Item names -->
     <entry key="item.moonDial.name">翡翠色月相盘</entry>
@@ -150,6 +151,9 @@
     <!-- Miscellaneous names -->
     <entry key="backpack.thaumaturge">神秘使背包</entry>
     <entry key="itemGroup.magicbees">魔法蜜蜂</entry>
+    <entry key="misc.level">等级 %s</entry>
+    <entry key="misc.magnetActive">%s - 激活</entry>
+    <entry key="misc.magnetInactive">%s - 关闭</entry>
         
     <!-- Escritoire Strings -->
     <entry key="research.requiresBlock">需要一个%s作为基础</entry>
@@ -257,6 +261,9 @@
     <entry key="magicbees.speciesCrumbling">衰朽</entry>
     <entry key="magicbees.speciesCrumbling.description">加快周围事物的腐朽速度,仿佛已历经悠久岁月.|Apinomicon</entry>
 
+    <entry key="magicbees.speciesInvisible">隐匿</entry>
+    <entry key="magicbees.speciesInvisible.description">容易忽略,他们玻璃一样的身体在原野里很难分辨.|Apinomicon</entry>
+
     <entry key="magicbees.speciesTCAir">灵气</entry>
     <entry key="magicbees.speciesTCAir.description">"工作敏捷,扣人心弦!"|Sengir,养蜂狂人</entry>
     <entry key="magicbees.speciesTCFire">灼热</entry>
@@ -338,6 +345,7 @@
     <entry key="magicbees.effectWithering">凋灵</entry>
     <entry key="magicbees.effectTransmuting">嬗变</entry>
     <entry key="magicbees.effectCrumbling">衰朽</entry>
+    <entry key="magicbees.effectInvisiblility">隐匿</entry>
     <entry key="magicbees.effectNodeGeneration">灵气吸收</entry>
     <entry key="magicbees.effectNodePurify">灵气纯化</entry>
     <entry key="magicbees.effectNodeFlux">咒波</entry>
@@ -443,6 +451,6 @@
     
     <entry key="tc.research_name.MB_EssenceOblivion">无尽漠视源质</entry>
     <entry key="tc.research_text.MB_EssenceOblivion">[MB] 恶意地抛弃</entry>
-    <entry key="tc.research_page.MB_EssenceOblivion.1">以突变为目的蜜蜂育种可能会使情况愈加恶化,尤其是针对那些寿命更长的品种. 不过只需要再多一点小智慧和小细心, 你就能够找到一种利用空间奇点, 一点一滴地提高小蜜蜂们寿命的方法. 这种方法即使使用一次也可能拥有多次增量的机会,且不会对它们产生太恶劣的影响.</entry>
-	
+    <entry key="tc.research_page.MB_EssenceOblivion.1">以突变为目的蜜蜂育种可能会使情况愈加恶化,尤其是针对那些寿命更长的品种. 不过只需要再多一点小智慧和小细心, 你就能够找到一种利用空间奇点, 一点一滴地提高小蜜蜂们寿命的方法. 这种方法即使使用一次也可能拥有多次增量的机会,且不会对它们产生太恶劣的影响. ##lineBreak## 我们很难得到超过一个的§5龙蛋§0而这种方法又需要更多的龙蛋.也许你可以考虑一种特殊的蜜蜂帮你解决这种限制.</entry>
+
 </properties>
